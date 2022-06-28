@@ -4,7 +4,6 @@ import pytest
 def test_succeed():
     assert True
 
-
 @pytest.mark.xfail
 def test_not_succeed():
     assert False
