@@ -8,7 +8,6 @@ def test_succeed():
 def test_not_succeed():
     assert False
 
-
 @pytest.mark.skip
 def test_skipped():
     assert False
